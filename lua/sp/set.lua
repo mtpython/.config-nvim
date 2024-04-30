@@ -4,6 +4,8 @@ vim.g.netrw_winsize = 0
 vim.g.VM_mouse_mappings = 1
 vim.g.VM_highlight_matches = "value"
 
+vim.opt.fillchars = { eob = " " }
+
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
