@@ -1,4 +1,4 @@
-local storePath = "./color.txt"
+local storePath = os.getenv("HOME") .. "/.local/state/nvim/color/color.txt"
 local currentTheme = 0
 local themes = { "rose-pine-moon", "rose-pine-main", "onedark", "rose-pine-dawn" }
 
